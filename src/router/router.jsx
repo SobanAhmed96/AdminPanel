@@ -4,6 +4,8 @@ import DashboardPage from "../pages/DashboardPage";
 import AddMyProject from "../pages/AddMyProject";
 import AllProjects from "../pages/AllProjects";
 import Settings from "../pages/Settings";
+import Skill from "../pages/Skill";
+import AllSkills from "../pages/AllSkills";
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -12,7 +14,9 @@ const router = createBrowserRouter(
         <Route path="/" element={<DashboardPage />} />
         <Route path="/AddProject" element={<AddMyProject />} />
         <Route path="/project" element={<AllProjects />} />
-        <Route path="/setting" element={<Settings />} />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="/skills" element={<Skill />} />
+        <Route path="/Allskills" element={<AllSkills />} />
         </Route>
         </>
     )

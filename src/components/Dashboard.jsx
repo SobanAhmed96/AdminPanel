@@ -62,6 +62,26 @@ const Dashboard = () => {
                 {isOpen ? "Projects" : "P"}
               </Link>
             </li>
+            <li>
+              <Link
+                to="/skills"
+                className={`block px-6 py-3 text-gray-700 hover:bg-green-100 rounded font-medium transition-colors duration-200 whitespace-nowrap overflow-hidden ${
+                  !isOpen && "text-center px-0"
+                }`}
+              >
+                {isOpen ? "Skills" : "SK"}
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/Allskills"
+                className={`block px-6 py-3 text-gray-700 hover:bg-green-100 rounded font-medium transition-colors duration-200 whitespace-nowrap overflow-hidden ${
+                  !isOpen && "text-center px-0"
+                }`}
+              >
+                {isOpen ? "All Skills" : "ASK"}
+              </Link>
+            </li>
 
             <li>
               <Link
