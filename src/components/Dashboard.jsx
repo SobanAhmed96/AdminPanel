@@ -54,7 +54,7 @@ const Dashboard = () => {
 
             <li>
               <Link
-                to="/projects"
+                to="/project"
                 className={`block px-6 py-3 text-gray-700 hover:bg-green-100 rounded font-medium transition-colors duration-200 whitespace-nowrap overflow-hidden ${
                   !isOpen && "text-center px-0"
                 }`}

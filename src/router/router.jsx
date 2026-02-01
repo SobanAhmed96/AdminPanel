@@ -2,6 +2,8 @@ import { createBrowserRouter, createRoutesFromElements, Route } from "react-rout
 import Dashboard from "../components/Dashboard";
 import DashboardPage from "../pages/DashboardPage";
 import AddMyProject from "../pages/AddMyProject";
+import AllProjects from "../pages/AllProjects";
+import Settings from "../pages/Settings";
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -9,6 +11,8 @@ const router = createBrowserRouter(
         <Route path="/" element={<Dashboard />}>
         <Route path="/" element={<DashboardPage />} />
         <Route path="/AddProject" element={<AddMyProject />} />
+        <Route path="/project" element={<AllProjects />} />
+        <Route path="/setting" element={<Settings />} />
         </Route>
         </>
     )
