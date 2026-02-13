@@ -168,9 +168,7 @@ const AllSkills = () => {
                       placeholder="Skill name"
                     />
                     {errors.name && (
-                      <p className="mt-2 text-xs text-red-500">
-                        {errors.name}
-                      </p>
+                      <p className="mt-2 text-xs text-red-500">{errors.name}</p>
                     )}
                   </div>
                   <div>
@@ -219,9 +217,7 @@ const AllSkills = () => {
                       <h2 className="text-lg font-semibold text-slate-900">
                         {skill.name}
                       </h2>
-                      <p className="mt-1 text-xs text-slate-400">
-                        Skill level
-                      </p>
+                      <p className="mt-1 text-xs text-slate-400">Skill level</p>
                     </div>
                     <span className="rounded-full bg-slate-100 px-2 py-1 text-xs text-slate-600">
                       {skill.percent}%

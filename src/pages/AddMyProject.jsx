@@ -64,7 +64,7 @@ const AddMyProject = () => {
 
       const cloudinaryResponse = await axios.post(
         "https://api.cloudinary.com/v1_1/dgy2rpwcu/image/upload",
-        formData
+        formData,
       );
 
       const imageUrl = cloudinaryResponse.data.secure_url;
